@@ -46,10 +46,11 @@ fi
 ## Download and build binaries
 ```
 cd $HOME
+rm -rf planq/
 git clone https://github.com/planq-network/planq.git
 cd planq
 git fetch
-git checkout v1.0.2
+git checkout v1.0.5
 make install
 ```
 
